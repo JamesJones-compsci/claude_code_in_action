@@ -1,6 +1,6 @@
 import { test, expect, vi, afterEach } from "vitest";
 import { render, screen, cleanup } from "@testing-library/react";
-import { MessageList } from "../MessageList";
+import { MessageList, EmptyState } from "../MessageList";
 import type { Message } from "ai";
 
 // Mock the MarkdownRenderer component
@@ -12,8 +12,8 @@ afterEach(() => {
   cleanup();
 });
 
-test("MessageList shows empty state when no messages", () => {
-  render(<MessageList messages={[]} />);
+test("EmptyState renders prompt text", () => {
+  render(<EmptyState />);
 
   expect(
     screen.getByText("Start a conversation to generate React components")
@@ -21,6 +21,12 @@ test("MessageList shows empty state when no messages", () => {
   expect(
     screen.getByText("I can help you create buttons, forms, cards, and more")
   ).toBeDefined();
+});
+
+test("MessageList renders nothing when no messages", () => {
+  const { container } = render(<MessageList messages={[]} />);
+  const messages = container.querySelectorAll(".rounded-xl");
+  expect(messages).toHaveLength(0);
 });
 
 test("MessageList renders user messages", () => {
@@ -65,7 +71,7 @@ test("MessageList renders messages with parts", () => {
           type: "tool-invocation",
           toolInvocation: {
             toolCallId: "asdf",
-            args: {},
+            args: { command: "create", path: "src/components/Card.tsx" },
             toolName: "str_replace_editor",
             state: "result",
             result: "Success",
@@ -78,7 +84,8 @@ test("MessageList renders messages with parts", () => {
   render(<MessageList messages={messages} />);
 
   expect(screen.getByText("Creating your component...")).toBeDefined();
-  expect(screen.getByText("str_replace_editor")).toBeDefined();
+  expect(screen.queryByText("str_replace_editor")).toBeNull();
+  expect(screen.getByText("Creating Card.tsx")).toBeDefined();
 });
 
 test("MessageList shows content for assistant message with content", () => {
