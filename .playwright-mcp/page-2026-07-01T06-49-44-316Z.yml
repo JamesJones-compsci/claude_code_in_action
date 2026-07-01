@@ -1,0 +1,687 @@
+- generic [ref=f7e2]:
+  - generic [ref=f7e3]:
+    - link "Skip to content" [ref=f7e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=f7e6]:
+      - heading "Navigation Menu" [level=2] [ref=f7e7]
+      - generic [ref=f7e8]:
+        - link "Homepage" [ref=f7e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=f7e11]
+        - generic [ref=f7e13]:
+          - navigation "Global" [ref=f7e16]:
+            - list [ref=f7e17]:
+              - listitem [ref=f7e18]:
+                - button "Platform" [ref=f7e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=f7e21]
+              - listitem [ref=f7e23]:
+                - button "Solutions" [ref=f7e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=f7e26]
+              - listitem [ref=f7e28]:
+                - button "Resources" [ref=f7e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=f7e31]
+              - listitem [ref=f7e33]:
+                - button "Open Source" [ref=f7e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=f7e36]
+              - listitem [ref=f7e38]:
+                - button "Enterprise" [ref=f7e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=f7e41]
+              - listitem [ref=f7e43]:
+                - link "Pricing" [ref=f7e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=f7e45]: Pricing
+          - generic [ref=f7e46]:
+            - button "Search or jump to…" [ref=f7e49] [cursor=pointer]:
+              - img [ref=f7e51]
+              - generic [ref=f7e53]: Search or jump to...
+              - img [ref=f7e55]
+            - link "Sign in" [ref=f7e59] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FJamesJones-compsci%2Fclaude_code_in_action
+            - link "Sign up" [ref=f7e60] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=JamesJones-compsci%2Fclaude_code_in_action
+            - button "Appearance settings" [ref=f7e63] [cursor=pointer]:
+              - img
+  - main [ref=f7e67]:
+    - generic [ref=f7e68]:
+      - generic [ref=f7e69]:
+        - generic [ref=f7e71]:
+          - img [ref=f7e72]
+          - link "JamesJones-compsci" [ref=f7e75] [cursor=pointer]:
+            - /url: /JamesJones-compsci
+          - generic [ref=f7e76]: /
+          - strong [ref=f7e77]:
+            - link "claude_code_in_action" [ref=f7e78] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action
+          - generic [ref=f7e79]: Public
+        - generic [ref=f7e80]:
+          - list:
+            - listitem [ref=f7e81]:
+              - link "You must be signed in to change notification settings" [ref=f7e82] [cursor=pointer]:
+                - /url: /login?return_to=%2FJamesJones-compsci%2Fclaude_code_in_action
+                - img [ref=f7e83]
+                - text: Notifications
+            - listitem [ref=f7e85]:
+              - link "Fork 0" [ref=f7e86] [cursor=pointer]:
+                - /url: /login?return_to=%2FJamesJones-compsci%2Fclaude_code_in_action
+                - img [ref=f7e87]
+                - text: Fork
+                - generic "0" [ref=f7e89]
+            - listitem [ref=f7e90]:
+              - link "You must be signed in to star a repository" [ref=f7e92] [cursor=pointer]:
+                - /url: /login?return_to=%2FJamesJones-compsci%2Fclaude_code_in_action
+                - img [ref=f7e93]
+                - text: Star
+                - generic "0 users starred this repository" [ref=f7e95]: "0"
+      - navigation "Repository" [ref=f7e96]:
+        - list [ref=f7e97]:
+          - listitem [ref=f7e98]:
+            - link "Code" [ref=f7e99] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action
+              - img [ref=f7e100]
+              - generic [ref=f7e102]: Code
+          - listitem [ref=f7e103]:
+            - link "Issues" [ref=f7e104] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/issues
+              - img [ref=f7e105]
+              - generic [ref=f7e108]: Issues
+          - listitem [ref=f7e109]:
+            - link "Pull requests" [ref=f7e110] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/pulls
+              - img [ref=f7e111]
+              - generic [ref=f7e113]: Pull requests
+          - listitem [ref=f7e114]:
+            - link "Actions" [ref=f7e115] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/actions
+              - img [ref=f7e116]
+              - generic [ref=f7e118]: Actions
+          - listitem [ref=f7e119]:
+            - link "Projects" [ref=f7e120] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/projects
+              - img [ref=f7e121]
+              - generic [ref=f7e123]: Projects
+          - listitem [ref=f7e124]:
+            - link "Security and quality" [ref=f7e125] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/security
+              - img [ref=f7e126]
+              - generic [ref=f7e128]: Security and quality
+          - listitem [ref=f7e129]:
+            - link "Insights" [ref=f7e130] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/pulse
+              - img [ref=f7e131]
+              - generic [ref=f7e133]: Insights
+    - generic [ref=f7e146]:
+      - heading "JamesJones-compsci/claude_code_in_action" [level=1] [ref=f7e148]
+      - generic [ref=f7e149]:
+        - generic [ref=f7e152]:
+          - generic [ref=f7e153]:
+            - generic [ref=f7e154]:
+              - button "main branch" [ref=f7e156] [cursor=pointer]:
+                - generic [ref=f7e157]:
+                  - generic [ref=f7e159]:
+                    - img [ref=f7e161]
+                    - generic [ref=f7e164]: main
+                  - generic:
+                    - img
+              - generic [ref=f7e165]:
+                - link "1 Branch" [ref=f7e166] [cursor=pointer]:
+                  - /url: /JamesJones-compsci/claude_code_in_action/branches
+                  - generic [ref=f7e167]:
+                    - generic:
+                      - img
+                    - generic [ref=f7e169]:
+                      - strong [ref=f7e170]: "1"
+                      - text: Branch
+                - link "0 Tags" [ref=f7e171] [cursor=pointer]:
+                  - /url: /JamesJones-compsci/claude_code_in_action/tags
+                  - generic [ref=f7e172]:
+                    - generic:
+                      - img
+                    - generic [ref=f7e174]:
+                      - strong [ref=f7e175]: "0"
+                      - text: Tags
+            - generic [ref=f7e176]:
+              - generic [ref=f7e180]:
+                - img [ref=f7e182]
+                - combobox "Go to file" [ref=f7e184]
+              - button "Code" [ref=f7e185] [cursor=pointer]:
+                - generic [ref=f7e186]:
+                  - generic:
+                    - img
+                  - generic [ref=f7e187]: Code
+                  - generic:
+                    - img
+          - generic [ref=f7e188]:
+            - generic [ref=f7e189]:
+              - heading "Folders and files" [level=2] [ref=f7e190]
+              - table "Folders and files" [ref=f7e191]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=f7e192]:
+                  - row "Latest commit JamesJones-compsci commits by JamesJones-compsci Add Claude Code GitHub Actions workflow Open commit details Commit 34b0a93 · Jul 1, 20262 minutes ago History 6 Commits" [ref=f7e193]:
+                    - cell "Latest commit JamesJones-compsci commits by JamesJones-compsci Add Claude Code GitHub Actions workflow Open commit details Commit 34b0a93 · Jul 1, 20262 minutes ago History 6 Commits" [ref=f7e194]:
+                      - generic [ref=f7e195]:
+                        - heading "Latest commit" [level=2] [ref=f7e196]
+                        - generic [ref=f7e197]:
+                          - generic [ref=f7e199]:
+                            - link "JamesJones-compsci" [ref=f7e200] [cursor=pointer]:
+                              - /url: /JamesJones-compsci
+                              - img "JamesJones-compsci" [ref=f7e201]
+                            - link "commits by JamesJones-compsci" [ref=f7e202] [cursor=pointer]:
+                              - /url: /JamesJones-compsci/claude_code_in_action/commits?author=JamesJones-compsci
+                              - text: JamesJones-compsci
+                          - generic [ref=f7e203]:
+                            - link "Add Claude Code GitHub Actions workflow" [ref=f7e206] [cursor=pointer]:
+                              - /url: /JamesJones-compsci/claude_code_in_action/commit/34b0a93513ad8943aa21a6c42ee6fe117264299d
+                            - button "Open commit details" [ref=f7e207] [cursor=pointer]:
+                              - img [ref=f7e208]
+                        - generic [ref=f7e210]:
+                          - generic [ref=f7e212]:
+                            - link "Commit 34b0a93" [ref=f7e213] [cursor=pointer]:
+                              - /url: /JamesJones-compsci/claude_code_in_action/commit/34b0a93513ad8943aa21a6c42ee6fe117264299d
+                              - text: 34b0a93
+                            - text: ·
+                            - generic "Jul 1, 2026, 2:47 AM EDT" [ref=f7e214]: Jul 1, 20262 minutes ago
+                          - generic [ref=f7e215]:
+                            - heading "History" [level=2] [ref=f7e216]
+                            - link "6 Commits" [ref=f7e217] [cursor=pointer]:
+                              - /url: /JamesJones-compsci/claude_code_in_action/commits/main/
+                              - generic [ref=f7e218]:
+                                - generic:
+                                  - img
+                                - generic [ref=f7e219]: 6 Commits
+                  - row ".claude/commands, (Directory) Fix vulnerable dependencies and add audit command Jul 1, 20262 hours ago" [ref=f7e220]:
+                    - cell ".claude/commands, (Directory)" [ref=f7e221]:
+                      - generic [ref=f7e222]:
+                        - img [ref=f7e223]
+                        - link ".claude/commands, (Directory)" [ref=f7e228] [cursor=pointer]:
+                          - /url: /JamesJones-compsci/claude_code_in_action/tree/main/.claude/commands
+                          - text: .claude/commands
+                    - cell "Fix vulnerable dependencies and add audit command" [ref=f7e229]:
+                      - link "Fix vulnerable dependencies and add audit command" [ref=f7e232] [cursor=pointer]:
+                        - /url: /JamesJones-compsci/claude_code_in_action/commit/c1b37d08a152181b760129a45aa4d5a28475fab6
+                    - cell "Jul 1, 20262 hours ago" [ref=f7e233]:
+                      - generic [ref=f7e234]: Jul 1, 20262 hours ago
+                  - row ".github/workflows, (Directory) Add Claude Code GitHub Actions workflow Jul 1, 20262 minutes ago" [ref=f7e235]:
+                    - cell ".github/workflows, (Directory)" [ref=f7e236]:
+                      - generic [ref=f7e237]:
+                        - img [ref=f7e238]
+                        - link ".github/workflows, (Directory)" [ref=f7e243] [cursor=pointer]:
+                          - /url: /JamesJones-compsci/claude_code_in_action/tree/main/.github/workflows
+                          - text: .github/workflows
+                    - cell "Add Claude Code GitHub Actions workflow" [ref=f7e244]:
+                      - link "Add Claude Code GitHub Actions workflow" [ref=f7e247] [cursor=pointer]:
+                        - /url: /JamesJones-compsci/claude_code_in_action/commit/34b0a93513ad8943aa21a6c42ee6fe117264299d
+                    - cell "Jul 1, 20262 minutes ago" [ref=f7e248]:
+                      - generic [ref=f7e249]: Jul 1, 20262 minutes ago
+                  - row ".idea, (Directory) Practiced adding memories for CLAUDE's knowledge Jun 30, 202614 hours ago" [ref=f7e250]:
+                    - cell ".idea, (Directory)" [ref=f7e251]:
+                      - generic [ref=f7e252]:
+                        - img [ref=f7e253]
+                        - link ".idea, (Directory)" [ref=f7e258] [cursor=pointer]:
+                          - /url: /JamesJones-compsci/claude_code_in_action/tree/main/.idea
+                          - text: .idea
+                    - cell "Practiced adding memories for CLAUDE's knowledge" [ref=f7e259]:
+                      - link "Practiced adding memories for CLAUDE's knowledge" [ref=f7e262] [cursor=pointer]:
+                        - /url: /JamesJones-compsci/claude_code_in_action/commit/7692619ee2991647f67dc0a41295e4a6a3a654e6
+                    - cell "Jun 30, 202614 hours ago" [ref=f7e263]:
+                      - generic [ref=f7e264]: Jun 30, 202614 hours ago
+                  - row "prisma, (Directory) Initial commit for final course - Claude Code in Action Jun 30, 202616 hours ago" [ref=f7e265]:
+                    - cell "prisma, (Directory)" [ref=f7e266]:
+                      - generic [ref=f7e267]:
+                        - img [ref=f7e268]
+                        - link "prisma, (Directory)" [ref=f7e273] [cursor=pointer]:
+                          - /url: /JamesJones-compsci/claude_code_in_action/tree/main/prisma
+                          - text: prisma
+                    - cell "Initial commit for final course - Claude Code in Action" [ref=f7e274]:
+                      - link "Initial commit for final course - Claude Code in Action" [ref=f7e277] [cursor=pointer]:
+                        - /url: /JamesJones-compsci/claude_code_in_action/commit/e04ada16d5d07b24adc9439dca0bf53c524209ca
+                    - cell "Jun 30, 202616 hours ago" [ref=f7e278]:
+                      - generic [ref=f7e279]: Jun 30, 202616 hours ago
+                  - row "src, (Directory) Replace raw tool name in chat with human-readable ToolCallBadge Jun 30, 202613 hours ago" [ref=f7e280]:
+                    - cell "src, (Directory)" [ref=f7e281]:
+                      - generic [ref=f7e282]:
+                        - img [ref=f7e283]
+                        - link "src, (Directory)" [ref=f7e288] [cursor=pointer]:
+                          - /url: /JamesJones-compsci/claude_code_in_action/tree/main/src
+                          - text: src
+                    - cell "Replace raw tool name in chat with human-readable ToolCallBadge" [ref=f7e289]:
+                      - link "Replace raw tool name in chat with human-readable ToolCallBadge" [ref=f7e292] [cursor=pointer]:
+                        - /url: /JamesJones-compsci/claude_code_in_action/commit/f3749492a51026e24910aca3489912eb614968c9
+                    - cell "Jun 30, 202613 hours ago" [ref=f7e293]:
+                      - generic [ref=f7e294]: Jun 30, 202613 hours ago
+                  - row ".DS_Store, (File) Initial commit for final course - Claude Code in Action Jun 30, 202616 hours ago" [ref=f7e295]:
+                    - cell ".DS_Store, (File)" [ref=f7e296]:
+                      - generic [ref=f7e297]:
+                        - img [ref=f7e298]
+                        - link ".DS_Store, (File)" [ref=f7e303] [cursor=pointer]:
+                          - /url: /JamesJones-compsci/claude_code_in_action/blob/main/.DS_Store
+                          - text: .DS_Store
+                    - cell "Initial commit for final course - Claude Code in Action" [ref=f7e304]:
+                      - link "Initial commit for final course - Claude Code in Action" [ref=f7e307] [cursor=pointer]:
+                        - /url: /JamesJones-compsci/claude_code_in_action/commit/e04ada16d5d07b24adc9439dca0bf53c524209ca
+                    - cell "Jun 30, 202616 hours ago" [ref=f7e308]:
+                      - generic [ref=f7e309]: Jun 30, 202616 hours ago
+                  - row ".eslintrc.json, (File) Initial commit for final course - Claude Code in Action Jun 30, 202616 hours ago" [ref=f7e310]:
+                    - cell ".eslintrc.json, (File)" [ref=f7e311]:
+                      - generic [ref=f7e312]:
+                        - img [ref=f7e313]
+                        - link ".eslintrc.json, (File)" [ref=f7e318] [cursor=pointer]:
+                          - /url: /JamesJones-compsci/claude_code_in_action/blob/main/.eslintrc.json
+                          - text: .eslintrc.json
+                    - cell "Initial commit for final course - Claude Code in Action" [ref=f7e319]:
+                      - link "Initial commit for final course - Claude Code in Action" [ref=f7e322] [cursor=pointer]:
+                        - /url: /JamesJones-compsci/claude_code_in_action/commit/e04ada16d5d07b24adc9439dca0bf53c524209ca
+                    - cell "Jun 30, 202616 hours ago" [ref=f7e323]:
+                      - generic [ref=f7e324]: Jun 30, 202616 hours ago
+                  - row ".gitignore, (File) Initial commit for final course - Claude Code in Action Jun 30, 202616 hours ago" [ref=f7e325]:
+                    - cell ".gitignore, (File)" [ref=f7e326]:
+                      - generic [ref=f7e327]:
+                        - img [ref=f7e328]
+                        - link ".gitignore, (File)" [ref=f7e333] [cursor=pointer]:
+                          - /url: /JamesJones-compsci/claude_code_in_action/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell "Initial commit for final course - Claude Code in Action" [ref=f7e334]:
+                      - link "Initial commit for final course - Claude Code in Action" [ref=f7e337] [cursor=pointer]:
+                        - /url: /JamesJones-compsci/claude_code_in_action/commit/e04ada16d5d07b24adc9439dca0bf53c524209ca
+                    - cell "Jun 30, 202616 hours ago" [ref=f7e338]:
+                      - generic [ref=f7e339]: Jun 30, 202616 hours ago
+                  - row "README.md, (File) Initial commit for final course - Claude Code in Action Jun 30, 202616 hours ago" [ref=f7e340]:
+                    - cell "README.md, (File)" [ref=f7e341]:
+                      - generic [ref=f7e342]:
+                        - img [ref=f7e343]
+                        - link "README.md, (File)" [ref=f7e348] [cursor=pointer]:
+                          - /url: /JamesJones-compsci/claude_code_in_action/blob/main/README.md
+                          - text: README.md
+                    - cell "Initial commit for final course - Claude Code in Action" [ref=f7e349]:
+                      - link "Initial commit for final course - Claude Code in Action" [ref=f7e352] [cursor=pointer]:
+                        - /url: /JamesJones-compsci/claude_code_in_action/commit/e04ada16d5d07b24adc9439dca0bf53c524209ca
+                    - cell "Jun 30, 202616 hours ago" [ref=f7e353]:
+                      - generic [ref=f7e354]: Jun 30, 202616 hours ago
+                  - row "components.json, (File) Initial commit for final course - Claude Code in Action Jun 30, 202616 hours ago" [ref=f7e355]:
+                    - cell "components.json, (File)" [ref=f7e356]:
+                      - generic [ref=f7e357]:
+                        - img [ref=f7e358]
+                        - link "components.json, (File)" [ref=f7e363] [cursor=pointer]:
+                          - /url: /JamesJones-compsci/claude_code_in_action/blob/main/components.json
+                          - text: components.json
+                    - cell "Initial commit for final course - Claude Code in Action" [ref=f7e364]:
+                      - link "Initial commit for final course - Claude Code in Action" [ref=f7e367] [cursor=pointer]:
+                        - /url: /JamesJones-compsci/claude_code_in_action/commit/e04ada16d5d07b24adc9439dca0bf53c524209ca
+                    - cell "Jun 30, 202616 hours ago" [ref=f7e368]:
+                      - generic [ref=f7e369]: Jun 30, 202616 hours ago
+                  - row "next-env.d.ts, (File) Initial commit for final course - Claude Code in Action Jun 30, 202616 hours ago" [ref=f7e370]:
+                    - cell "next-env.d.ts, (File)" [ref=f7e371]:
+                      - generic [ref=f7e372]:
+                        - img [ref=f7e373]
+                        - link "next-env.d.ts, (File)" [ref=f7e378] [cursor=pointer]:
+                          - /url: /JamesJones-compsci/claude_code_in_action/blob/main/next-env.d.ts
+                          - text: next-env.d.ts
+                    - cell "Initial commit for final course - Claude Code in Action" [ref=f7e379]:
+                      - link "Initial commit for final course - Claude Code in Action" [ref=f7e382] [cursor=pointer]:
+                        - /url: /JamesJones-compsci/claude_code_in_action/commit/e04ada16d5d07b24adc9439dca0bf53c524209ca
+                    - cell "Jun 30, 202616 hours ago" [ref=f7e383]:
+                      - generic [ref=f7e384]: Jun 30, 202616 hours ago
+                  - row "next.config.ts, (File) Initial commit for final course - Claude Code in Action Jun 30, 202616 hours ago" [ref=f7e385]:
+                    - cell "next.config.ts, (File)" [ref=f7e386]:
+                      - generic [ref=f7e387]:
+                        - img [ref=f7e388]
+                        - link "next.config.ts, (File)" [ref=f7e393] [cursor=pointer]:
+                          - /url: /JamesJones-compsci/claude_code_in_action/blob/main/next.config.ts
+                          - text: next.config.ts
+                    - cell "Initial commit for final course - Claude Code in Action" [ref=f7e394]:
+                      - link "Initial commit for final course - Claude Code in Action" [ref=f7e397] [cursor=pointer]:
+                        - /url: /JamesJones-compsci/claude_code_in_action/commit/e04ada16d5d07b24adc9439dca0bf53c524209ca
+                    - cell "Jun 30, 202616 hours ago" [ref=f7e398]:
+                      - generic [ref=f7e399]: Jun 30, 202616 hours ago
+                  - row "node-compat.cjs, (File) Initial commit for final course - Claude Code in Action Jun 30, 202616 hours ago" [ref=f7e400]:
+                    - cell "node-compat.cjs, (File)" [ref=f7e401]:
+                      - generic [ref=f7e402]:
+                        - img [ref=f7e403]
+                        - link "node-compat.cjs, (File)" [ref=f7e408] [cursor=pointer]:
+                          - /url: /JamesJones-compsci/claude_code_in_action/blob/main/node-compat.cjs
+                          - text: node-compat.cjs
+                    - cell "Initial commit for final course - Claude Code in Action" [ref=f7e409]:
+                      - link "Initial commit for final course - Claude Code in Action" [ref=f7e412] [cursor=pointer]:
+                        - /url: /JamesJones-compsci/claude_code_in_action/commit/e04ada16d5d07b24adc9439dca0bf53c524209ca
+                    - cell "Jun 30, 202616 hours ago" [ref=f7e413]:
+                      - generic [ref=f7e414]: Jun 30, 202616 hours ago
+                  - row "package-lock.json, (File) Fix vulnerable dependencies and add audit command Jul 1, 20262 hours ago" [ref=f7e415]:
+                    - cell "package-lock.json, (File)" [ref=f7e416]:
+                      - generic [ref=f7e417]:
+                        - img [ref=f7e418]
+                        - link "package-lock.json, (File)" [ref=f7e423] [cursor=pointer]:
+                          - /url: /JamesJones-compsci/claude_code_in_action/blob/main/package-lock.json
+                          - text: package-lock.json
+                    - cell "Fix vulnerable dependencies and add audit command" [ref=f7e424]:
+                      - link "Fix vulnerable dependencies and add audit command" [ref=f7e427] [cursor=pointer]:
+                        - /url: /JamesJones-compsci/claude_code_in_action/commit/c1b37d08a152181b760129a45aa4d5a28475fab6
+                    - cell "Jul 1, 20262 hours ago" [ref=f7e428]:
+                      - generic [ref=f7e429]: Jul 1, 20262 hours ago
+                  - row "package.json, (File) Fix vulnerable dependencies and add audit command Jul 1, 20262 hours ago" [ref=f7e430]:
+                    - cell "package.json, (File)" [ref=f7e431]:
+                      - generic [ref=f7e432]:
+                        - img [ref=f7e433]
+                        - link "package.json, (File)" [ref=f7e438] [cursor=pointer]:
+                          - /url: /JamesJones-compsci/claude_code_in_action/blob/main/package.json
+                          - text: package.json
+                    - cell "Fix vulnerable dependencies and add audit command" [ref=f7e439]:
+                      - link "Fix vulnerable dependencies and add audit command" [ref=f7e442] [cursor=pointer]:
+                        - /url: /JamesJones-compsci/claude_code_in_action/commit/c1b37d08a152181b760129a45aa4d5a28475fab6
+                    - cell "Jul 1, 20262 hours ago" [ref=f7e443]:
+                      - generic [ref=f7e444]: Jul 1, 20262 hours ago
+                  - row "postcss.config.mjs, (File) Initial commit for final course - Claude Code in Action Jun 30, 202616 hours ago" [ref=f7e445]:
+                    - cell "postcss.config.mjs, (File)" [ref=f7e446]:
+                      - generic [ref=f7e447]:
+                        - img [ref=f7e448]
+                        - link "postcss.config.mjs, (File)" [ref=f7e453] [cursor=pointer]:
+                          - /url: /JamesJones-compsci/claude_code_in_action/blob/main/postcss.config.mjs
+                          - text: postcss.config.mjs
+                    - cell "Initial commit for final course - Claude Code in Action" [ref=f7e454]:
+                      - link "Initial commit for final course - Claude Code in Action" [ref=f7e457] [cursor=pointer]:
+                        - /url: /JamesJones-compsci/claude_code_in_action/commit/e04ada16d5d07b24adc9439dca0bf53c524209ca
+                    - cell "Jun 30, 202616 hours ago" [ref=f7e458]:
+                      - generic [ref=f7e459]: Jun 30, 202616 hours ago
+                  - row "screenshot.png, (File) Added screenshots to improve Claude's knowledge base Jun 30, 202613 hours ago" [ref=f7e460]:
+                    - cell "screenshot.png, (File)" [ref=f7e461]:
+                      - generic [ref=f7e462]:
+                        - img [ref=f7e463]
+                        - link "screenshot.png, (File)" [ref=f7e468] [cursor=pointer]:
+                          - /url: /JamesJones-compsci/claude_code_in_action/blob/main/screenshot.png
+                          - text: screenshot.png
+                    - cell "Added screenshots to improve Claude's knowledge base" [ref=f7e469]:
+                      - link "Added screenshots to improve Claude's knowledge base" [ref=f7e472] [cursor=pointer]:
+                        - /url: /JamesJones-compsci/claude_code_in_action/commit/37a6b1ec944d47deab96f3a7e8225023977cda0f
+                    - cell "Jun 30, 202613 hours ago" [ref=f7e473]:
+                      - generic [ref=f7e474]: Jun 30, 202613 hours ago
+                  - row "screenshot2.png, (File) Added screenshots to improve Claude's knowledge base Jun 30, 202613 hours ago" [ref=f7e475]:
+                    - cell "screenshot2.png, (File)" [ref=f7e476]:
+                      - generic [ref=f7e477]:
+                        - img [ref=f7e478]
+                        - link "screenshot2.png, (File)" [ref=f7e483] [cursor=pointer]:
+                          - /url: /JamesJones-compsci/claude_code_in_action/blob/main/screenshot2.png
+                          - text: screenshot2.png
+                    - cell "Added screenshots to improve Claude's knowledge base" [ref=f7e484]:
+                      - link "Added screenshots to improve Claude's knowledge base" [ref=f7e487] [cursor=pointer]:
+                        - /url: /JamesJones-compsci/claude_code_in_action/commit/37a6b1ec944d47deab96f3a7e8225023977cda0f
+                    - cell "Jun 30, 202613 hours ago" [ref=f7e488]:
+                      - generic [ref=f7e489]: Jun 30, 202613 hours ago
+                  - row "tsconfig.json, (File) Initial commit for final course - Claude Code in Action Jun 30, 202616 hours ago" [ref=f7e490]:
+                    - cell "tsconfig.json, (File)" [ref=f7e491]:
+                      - generic [ref=f7e492]:
+                        - img [ref=f7e493]
+                        - link "tsconfig.json, (File)" [ref=f7e498] [cursor=pointer]:
+                          - /url: /JamesJones-compsci/claude_code_in_action/blob/main/tsconfig.json
+                          - text: tsconfig.json
+                    - cell "Initial commit for final course - Claude Code in Action" [ref=f7e499]:
+                      - link "Initial commit for final course - Claude Code in Action" [ref=f7e502] [cursor=pointer]:
+                        - /url: /JamesJones-compsci/claude_code_in_action/commit/e04ada16d5d07b24adc9439dca0bf53c524209ca
+                    - cell "Jun 30, 202616 hours ago" [ref=f7e503]:
+                      - generic [ref=f7e504]: Jun 30, 202616 hours ago
+                  - row "vitest.config.mts, (File) Initial commit for final course - Claude Code in Action Jun 30, 202616 hours ago" [ref=f7e505]:
+                    - cell "vitest.config.mts, (File)" [ref=f7e506]:
+                      - generic [ref=f7e507]:
+                        - img [ref=f7e508]
+                        - link "vitest.config.mts, (File)" [ref=f7e513] [cursor=pointer]:
+                          - /url: /JamesJones-compsci/claude_code_in_action/blob/main/vitest.config.mts
+                          - text: vitest.config.mts
+                    - cell "Initial commit for final course - Claude Code in Action" [ref=f7e514]:
+                      - link "Initial commit for final course - Claude Code in Action" [ref=f7e517] [cursor=pointer]:
+                        - /url: /JamesJones-compsci/claude_code_in_action/commit/e04ada16d5d07b24adc9439dca0bf53c524209ca
+                    - cell "Jun 30, 202616 hours ago" [ref=f7e518]:
+                      - generic [ref=f7e519]: Jun 30, 202616 hours ago
+            - generic [ref=f7e521]:
+              - generic [ref=f7e522]:
+                - heading "Repository files navigation" [level=2] [ref=f7e523]
+                - navigation "Repository files" [ref=f7e524]:
+                  - list [ref=f7e525]:
+                    - listitem [ref=f7e526]:
+                      - link "README" [ref=f7e527] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=f7e529]
+                        - generic [ref=f7e531]: README
+                - button "Outline" [ref=f7e532] [cursor=pointer]:
+                  - img [ref=f7e533]
+              - article [ref=f7e536]:
+                - generic [ref=f7e537]:
+                  - heading "UIGen" [level=1] [ref=f7e538]
+                  - 'link "Permalink: UIGen" [ref=f7e539] [cursor=pointer]':
+                    - /url: "#uigen"
+                    - img [ref=f7e540]
+                - paragraph [ref=f7e542]: AI-powered React component generator with live preview.
+                - generic [ref=f7e543]:
+                  - heading "Prerequisites" [level=2] [ref=f7e544]
+                  - 'link "Permalink: Prerequisites" [ref=f7e545] [cursor=pointer]':
+                    - /url: "#prerequisites"
+                    - img [ref=f7e546]
+                - list [ref=f7e548]:
+                  - listitem [ref=f7e549]: Node.js 18+
+                  - listitem [ref=f7e550]: npm
+                - generic [ref=f7e551]:
+                  - heading "Setup" [level=2] [ref=f7e552]
+                  - 'link "Permalink: Setup" [ref=f7e553] [cursor=pointer]':
+                    - /url: "#setup"
+                    - img [ref=f7e554]
+                - list [ref=f7e556]:
+                  - listitem [ref=f7e557]:
+                    - strong [ref=f7e558]: Optional
+                    - text: Edit
+                    - code [ref=f7e559]: .env
+                    - text: and replace
+                    - code [ref=f7e560]: your-api-key-here
+                    - text: with your Anthropic API key from
+                    - link "console.anthropic.com" [ref=f7e561] [cursor=pointer]:
+                      - /url: https://console.anthropic.com/settings/keys
+                    - text: ":"
+                - generic [ref=f7e562]:
+                  - code [ref=f7e564]: ANTHROPIC_API_KEY=sk-ant-...
+                  - button "Copy code to clipboard" [ref=f7e566] [cursor=pointer]:
+                    - img [ref=f7e567]
+                - paragraph [ref=f7e570]: The project runs without an API key — it falls back to a mock provider that returns canned components instead of calling Claude. If you leave the placeholder unchanged, you'll get the mock.
+                - list [ref=f7e571]:
+                  - listitem [ref=f7e572]: "Install dependencies and initialize the database:"
+                - generic [ref=f7e573]:
+                  - generic [ref=f7e574]: npm run setup
+                  - button "Copy code to clipboard" [ref=f7e576] [cursor=pointer]:
+                    - img [ref=f7e577]
+                - blockquote [ref=f7e580]:
+                  - paragraph [ref=f7e581]:
+                    - strong [ref=f7e582]:
+                      - text: Don't run
+                      - code [ref=f7e583]: npm audit fix
+                      - text: .
+                    - text: Dependencies are pinned to specific versions that work together, and
+                    - code [ref=f7e584]: audit fix
+                    - text: can bump packages past compatible versions and break the app. Known security issues are addressed by updating the pinned versions directly — most recently, Next.js was bumped to a patched release to fix the React2Shell vulnerability (CVE-2025-55182 / CVE-2025-66478). If your scanner still flags something, raise it rather than running
+                    - code [ref=f7e585]: audit fix
+                    - text: .
+                - paragraph [ref=f7e586]: "This command will:"
+                - list [ref=f7e587]:
+                  - listitem [ref=f7e588]: Install all dependencies
+                  - listitem [ref=f7e589]: Generate Prisma client
+                  - listitem [ref=f7e590]: Run database migrations
+                - generic [ref=f7e591]:
+                  - heading "Running the Application" [level=2] [ref=f7e592]
+                  - 'link "Permalink: Running the Application" [ref=f7e593] [cursor=pointer]':
+                    - /url: "#running-the-application"
+                    - img [ref=f7e594]
+                - generic [ref=f7e596]:
+                  - heading "Development" [level=3] [ref=f7e597]
+                  - 'link "Permalink: Development" [ref=f7e598] [cursor=pointer]':
+                    - /url: "#development"
+                    - img [ref=f7e599]
+                - generic [ref=f7e601]:
+                  - generic [ref=f7e602]: npm run dev
+                  - button "Copy code to clipboard" [ref=f7e604] [cursor=pointer]:
+                    - img [ref=f7e605]
+                - paragraph [ref=f7e608]:
+                  - text: Open
+                  - link "http://localhost:3000" [ref=f7e609] [cursor=pointer]:
+                    - /url: http://localhost:3000
+                - generic [ref=f7e610]:
+                  - heading "Usage" [level=2] [ref=f7e611]
+                  - 'link "Permalink: Usage" [ref=f7e612] [cursor=pointer]':
+                    - /url: "#usage"
+                    - img [ref=f7e613]
+                - list [ref=f7e615]:
+                  - listitem [ref=f7e616]: Sign up or continue as anonymous user
+                  - listitem [ref=f7e617]: Describe the React component you want to create in the chat
+                  - listitem [ref=f7e618]: View generated components in real-time preview
+                  - listitem [ref=f7e619]: Switch to Code view to see and edit the generated files
+                  - listitem [ref=f7e620]: Continue iterating with the AI to refine your components
+                - generic [ref=f7e621]:
+                  - heading "Features" [level=2] [ref=f7e622]
+                  - 'link "Permalink: Features" [ref=f7e623] [cursor=pointer]':
+                    - /url: "#features"
+                    - img [ref=f7e624]
+                - list [ref=f7e626]:
+                  - listitem [ref=f7e627]: AI-powered component generation using Claude
+                  - listitem [ref=f7e628]: Live preview with hot reload
+                  - listitem [ref=f7e629]: Virtual file system (no files written to disk)
+                  - listitem [ref=f7e630]: Syntax highlighting and code editor
+                  - listitem [ref=f7e631]: Component persistence for registered users
+                  - listitem [ref=f7e632]: Export generated code
+                - generic [ref=f7e633]:
+                  - heading "Tech Stack" [level=2] [ref=f7e634]
+                  - 'link "Permalink: Tech Stack" [ref=f7e635] [cursor=pointer]':
+                    - /url: "#tech-stack"
+                    - img [ref=f7e636]
+                - list [ref=f7e638]:
+                  - listitem [ref=f7e639]: Next.js 15 with App Router
+                  - listitem [ref=f7e640]: React 19
+                  - listitem [ref=f7e641]: TypeScript
+                  - listitem [ref=f7e642]: Tailwind CSS v4
+                  - listitem [ref=f7e643]: Prisma with SQLite
+                  - listitem [ref=f7e644]: Anthropic Claude AI
+                  - listitem [ref=f7e645]: Vercel AI SDK
+        - generic [ref=f7e649]:
+          - generic [ref=f7e652]:
+            - heading "About" [level=2] [ref=f7e653]
+            - generic [ref=f7e654]: No description, website, or topics provided.
+            - heading "Resources" [level=3] [ref=f7e655]
+            - link "Readme" [ref=f7e657] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=f7e658]
+              - text: Readme
+            - link "Activity" [ref=f7e661] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/activity
+              - img [ref=f7e662]
+              - text: Activity
+            - heading "Stars" [level=3] [ref=f7e664]
+            - link "0 stars" [ref=f7e666] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/stargazers
+              - img [ref=f7e667]
+              - strong [ref=f7e669]: "0"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=f7e670]
+            - link "0 watching" [ref=f7e672] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/watchers
+              - img [ref=f7e673]
+              - strong [ref=f7e675]: "0"
+              - text: watching
+            - heading "Forks" [level=3] [ref=f7e676]
+            - link "0 forks" [ref=f7e678] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/forks
+              - img [ref=f7e679]
+              - strong [ref=f7e681]: "0"
+              - text: forks
+            - link "Report repository" [ref=f7e683] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FJamesJones-compsci%2Fclaude_code_in_action&report=JamesJones-compsci+%28user%29
+          - generic [ref=f7e685]:
+            - heading "Releases" [level=2] [ref=f7e686]:
+              - link "Releases" [ref=f7e687] [cursor=pointer]:
+                - /url: /JamesJones-compsci/claude_code_in_action/releases
+            - generic [ref=f7e688]: No releases published
+          - generic [ref=f7e690]:
+            - heading "Packages" [level=2] [ref=f7e691]:
+              - link "Packages" [ref=f7e692] [cursor=pointer]:
+                - /url: /users/JamesJones-compsci/packages?repo_name=claude_code_in_action
+            - generic [ref=f7e693]: No packages published
+          - generic [ref=f7e695]:
+            - heading "Contributors 2" [level=2] [ref=f7e696]:
+              - link "Contributors 2" [ref=f7e697] [cursor=pointer]:
+                - /url: /JamesJones-compsci/claude_code_in_action/graphs/contributors
+                - text: Contributors
+                - generic "2" [ref=f7e698]
+            - list [ref=f7e699]:
+              - listitem [ref=f7e700]:
+                - link "@JamesJones-compsci" [ref=f7e701] [cursor=pointer]:
+                  - /url: https://github.com/JamesJones-compsci
+                  - img "@JamesJones-compsci" [ref=f7e702]
+                - link "JamesJones-compsci" [ref=f7e704] [cursor=pointer]:
+                  - /url: https://github.com/JamesJones-compsci
+                  - strong [ref=f7e705]: JamesJones-compsci
+              - listitem [ref=f7e706]:
+                - link "@claude" [ref=f7e707] [cursor=pointer]:
+                  - /url: https://github.com/claude
+                  - img "@claude" [ref=f7e708]
+                - link "claude Claude" [ref=f7e710] [cursor=pointer]:
+                  - /url: https://github.com/claude
+                  - strong [ref=f7e711]: claude
+                  - text: Claude
+          - generic [ref=f7e713]:
+            - heading "Languages" [level=2] [ref=f7e714]
+            - list [ref=f7e720]:
+              - listitem [ref=f7e721]:
+                - link "TypeScript 86.0%" [ref=f7e722] [cursor=pointer]:
+                  - /url: /JamesJones-compsci/claude_code_in_action/search?l=typescript
+                  - img [ref=f7e723]
+                  - generic [ref=f7e725]: TypeScript
+                  - generic [ref=f7e726]: 86.0%
+              - listitem [ref=f7e727]:
+                - link "JavaScript 12.4%" [ref=f7e728] [cursor=pointer]:
+                  - /url: /JamesJones-compsci/claude_code_in_action/search?l=javascript
+                  - img [ref=f7e729]
+                  - generic [ref=f7e731]: JavaScript
+                  - generic [ref=f7e732]: 12.4%
+              - listitem [ref=f7e733]:
+                - link "CSS 1.6%" [ref=f7e734] [cursor=pointer]:
+                  - /url: /JamesJones-compsci/claude_code_in_action/search?l=css
+                  - img [ref=f7e735]
+                  - generic [ref=f7e737]: CSS
+                  - generic [ref=f7e738]: 1.6%
+  - contentinfo [ref=f7e740]:
+    - heading "Footer" [level=2] [ref=f7e741]
+    - generic [ref=f7e742]:
+      - generic [ref=f7e743]:
+        - link "GitHub Homepage" [ref=f7e744] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=f7e745]
+        - generic [ref=f7e747]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=f7e748]:
+        - heading "Footer navigation" [level=3] [ref=f7e749]
+        - list "Footer navigation" [ref=f7e750]:
+          - listitem [ref=f7e751]:
+            - link "Terms" [ref=f7e752] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=f7e753]:
+            - link "Privacy" [ref=f7e754] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=f7e755]:
+            - link "Security" [ref=f7e756] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=f7e757]:
+            - link "Status" [ref=f7e758] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=f7e759]:
+            - link "Community" [ref=f7e760] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=f7e761]:
+            - link "Docs" [ref=f7e762] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=f7e763]:
+            - link "Contact" [ref=f7e764] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=f7e765]:
+            - button "Manage cookies" [ref=f7e767] [cursor=pointer]
+          - listitem [ref=f7e768]:
+            - button "Do not share my personal information" [ref=f7e770] [cursor=pointer]

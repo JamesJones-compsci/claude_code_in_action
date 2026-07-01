@@ -1,0 +1,236 @@
+- generic [ref=f13e2]:
+  - generic [ref=f13e3]:
+    - link "Skip to content" [ref=f13e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global navigation menu" [ref=f13e8]:
+      - generic [ref=f13e9]:
+        - generic [ref=f13e10]:
+          - button "Open menu" [ref=f13e12] [cursor=pointer]:
+            - img [ref=f13e13]
+          - link "Homepage (g then d)" [ref=f13e15] [cursor=pointer]:
+            - /url: /
+            - img [ref=f13e16]
+        - generic [ref=f13e18]:
+          - navigation "Breadcrumbs" [ref=f13e19]:
+            - list [ref=f13e20]:
+              - listitem [ref=f13e21]:
+                - link "JamesJones-compsci" [ref=f13e22] [cursor=pointer]:
+                  - /url: /JamesJones-compsci
+                  - generic [ref=f13e23]: JamesJones-compsci
+              - listitem [ref=f13e24]:
+                - link "claude_code_in_action" [ref=f13e25] [cursor=pointer]:
+                  - /url: /JamesJones-compsci/claude_code_in_action
+                - button "Switch repository (alt shift r)" [ref=f13e26] [cursor=pointer]:
+                  - img [ref=f13e27]
+          - button "Search or jump to…" [ref=f13e31] [cursor=pointer]:
+            - generic [ref=f13e32]:
+              - generic:
+                - img
+              - generic [ref=f13e33]:
+                - generic:
+                  - text: Type
+                  - generic: /
+                  - text: to search
+        - generic [ref=f13e34]:
+          - generic [ref=f13e35]:
+            - generic [ref=f13e38]:
+              - link "Chat with Copilot" [ref=f13e40] [cursor=pointer]:
+                - /url: /copilot
+                - img [ref=f13e41]
+              - button "Open Copilot…" [ref=f13e45] [cursor=pointer]:
+                - generic:
+                  - img
+            - button "Create new..." [ref=f13e47] [cursor=pointer]:
+              - generic [ref=f13e48]:
+                - generic:
+                  - img
+              - generic:
+                - img
+            - generic [ref=f13e49]:
+              - link "All issues" [ref=f13e50] [cursor=pointer]:
+                - /url: /issues
+                - img [ref=f13e51]
+              - link "All pull requests" [ref=f13e54] [cursor=pointer]:
+                - /url: /pulls
+                - img [ref=f13e55]
+              - link "All repositories" [ref=f13e57] [cursor=pointer]:
+                - /url: /repos
+                - img [ref=f13e58]
+          - link "You have unread notifications (g then n)" [ref=f13e60] [cursor=pointer]:
+            - /url: /notifications
+            - img [ref=f13e61]
+          - button "Open user navigation menu" [ref=f13e64] [cursor=pointer]:
+            - img "User avatar" [ref=f13e65]
+      - heading "Repository navigation" [level=2] [ref=f13e66]
+      - navigation "Repository" [ref=f13e67]:
+        - list [ref=f13e68]:
+          - listitem [ref=f13e69]:
+            - link "Code" [ref=f13e70] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action
+              - img [ref=f13e72]
+              - generic [ref=f13e74]: Code
+          - listitem [ref=f13e75]:
+            - link "Issues (1)" [ref=f13e76] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/issues
+              - img [ref=f13e78]
+              - generic [ref=f13e81]: Issues
+              - generic [ref=f13e82]:
+                - generic [ref=f13e83]: "1"
+                - generic [ref=f13e84]: (1)
+          - listitem [ref=f13e85]:
+            - link "Pull requests" [ref=f13e86] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/pulls
+              - img [ref=f13e88]
+              - generic [ref=f13e90]: Pull requests
+          - listitem [ref=f13e91]:
+            - link "Agents" [ref=f13e92] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/agents?author=JamesJones-compsci
+              - img [ref=f13e94]
+              - generic [ref=f13e97]: Agents
+          - listitem [ref=f13e98]:
+            - link "Actions" [ref=f13e99] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/actions
+              - img [ref=f13e101]
+              - generic [ref=f13e103]: Actions
+          - listitem [ref=f13e104]:
+            - link "Projects" [ref=f13e105] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/projects
+              - img [ref=f13e107]
+              - generic [ref=f13e109]: Projects
+          - listitem [ref=f13e110]:
+            - link "Wiki" [ref=f13e111] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/wiki
+              - img [ref=f13e113]
+              - generic [ref=f13e115]: Wiki
+          - listitem [ref=f13e116]:
+            - link "Security and quality" [ref=f13e117] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/security
+              - img [ref=f13e119]
+              - generic [ref=f13e121]: Security and quality
+          - listitem [ref=f13e122]:
+            - link "Insights" [ref=f13e123] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/pulse
+              - img [ref=f13e125]
+              - generic [ref=f13e127]: Insights
+          - listitem [ref=f13e128]:
+            - link "Settings" [ref=f13e129] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/settings
+              - img [ref=f13e131]
+              - generic [ref=f13e133]: Settings
+  - main [ref=f13e137]:
+    - generic [ref=f13e143]:
+      - generic [ref=f13e146]:
+        - link "Claude Code" [ref=f13e149] [cursor=pointer]:
+          - /url: /JamesJones-compsci/claude_code_in_action/actions/workflows/claude.yml
+          - img [ref=f13e150]
+          - generic [ref=f13e152]: Claude Code
+        - generic [ref=f13e153]:
+          - generic [ref=f13e154]:
+            - img "currently running:" [ref=f13e159]
+            - 'heading "Test: verify Claude GitHub Actions workflow #1" [level=1] [ref=f13e163]':
+              - generic [ref=f13e164]: "Test: verify Claude GitHub Actions workflow #1"
+          - generic [ref=f13e166]:
+            - button "Cancel workflow" [ref=f13e168] [cursor=pointer]
+            - button "Workflow run options" [ref=f13e172] [cursor=pointer]:
+              - img
+      - generic [ref=f13e173]:
+        - navigation "Workflow run" [ref=f13e179]:
+          - list [ref=f13e180]:
+            - listitem [ref=f13e181]:
+              - link "Summary" [ref=f13e279] [cursor=pointer]:
+                - /url: /JamesJones-compsci/claude_code_in_action/actions/runs/28499262397
+                - generic:
+                  - img
+                - generic [ref=f13e281]: Summary
+            - generic [ref=f13e185]:
+              - heading "All jobs" [level=4] [ref=f13e186]
+              - button "Filter by job status" [ref=f13e187] [cursor=pointer]:
+                - img [ref=f13e188]
+            - listitem [ref=f13e190]
+            - listitem [ref=f13e191]:
+              - list [ref=f13e192]:
+                - listitem [ref=f13e282]:
+                  - link "claude" [ref=f13e283] [cursor=pointer]:
+                    - /url: /JamesJones-compsci/claude_code_in_action/actions/runs/28499262397/job/84472471462
+                    - generic:
+                      - generic:
+                        - img "Currently running"
+                    - generic [ref=f13e285]: claude
+            - listitem [ref=f13e203]
+            - listitem [ref=f13e204]:
+              - heading "Run details" [level=3] [ref=f13e206]
+              - list "Run details" [ref=f13e207]:
+                - listitem [ref=f13e208]:
+                  - link "Usage" [ref=f13e286] [cursor=pointer]:
+                    - /url: /JamesJones-compsci/claude_code_in_action/actions/runs/28499262397/usage
+                    - generic:
+                      - img
+                    - generic [ref=f13e288]: Usage
+                - listitem [ref=f13e212]:
+                  - link "Workflow file" [ref=f13e289] [cursor=pointer]:
+                    - /url: /JamesJones-compsci/claude_code_in_action/actions/runs/28499262397/workflow
+                    - generic:
+                      - img
+                    - generic [ref=f13e291]: Workflow file
+        - generic [ref=f13e217]:
+          - region "Workflow run summary" [ref=f13e218]:
+            - generic [ref=f13e219]:
+              - generic [ref=f13e220]:
+                - generic [ref=f13e221]: Triggered via issue July 1, 2026 02:51now
+                - generic [ref=f13e222]:
+                  - link "@JamesJones-compsci JamesJones-compsci" [ref=f13e223] [cursor=pointer]:
+                    - /url: /JamesJones-compsci
+                    - img "@JamesJones-compsci" [ref=f13e224]
+                    - text: JamesJones-compsci
+                  - generic [ref=f13e225]:
+                    - generic [ref=f13e226]: opened
+                    - link "#1" [ref=f13e227] [cursor=pointer]:
+                      - /url: /JamesJones-compsci/claude_code_in_action/issues/1
+                    - link "34b0a93" [ref=f13e228] [cursor=pointer]:
+                      - /url: /JamesJones-compsci/claude_code_in_action/commit/34b0a93513ad8943aa21a6c42ee6fe117264299d
+                      - img [ref=f13e229]
+                      - text: 34b0a93
+              - generic [ref=f13e231]:
+                - generic [ref=f13e232]: Status
+                - text: In progress
+              - generic [ref=f13e233]:
+                - generic [ref=f13e234]: Total duration
+                - link "–" [ref=f13e235] [cursor=pointer]:
+                  - /url: /JamesJones-compsci/claude_code_in_action/actions/runs/28499262397/usage
+              - generic [ref=f13e236]:
+                - generic [ref=f13e237]: Artifacts
+                - text: –
+          - region "Workflow run graph" [ref=f13e238]:
+            - generic [ref=f13e240]:
+              - generic [ref=f13e242]:
+                - heading "claude.yml" [level=2] [ref=f13e243]:
+                  - link "claude.yml" [ref=f13e244] [cursor=pointer]:
+                    - /url: /JamesJones-compsci/claude_code_in_action/actions/runs/28499262397/workflow
+                - generic [ref=f13e245]: "on: issues"
+              - generic [ref=f13e247]:
+                - generic [ref=f13e248]:
+                  - img
+                  - img
+                  - 'link "currently running: claude 29s" [ref=f13e292] [cursor=pointer]':
+                    - /url: /JamesJones-compsci/claude_code_in_action/actions/runs/28499262397/job/84472471462
+                    - generic [ref=f13e254]:
+                      - img "currently running:" [ref=f13e257]
+                      - generic [ref=f13e262]: claude
+                      - generic "Jul 1, 2026, 2:51 AM EDT" [ref=f13e264]: 29s
+                - generic [ref=f13e265]:
+                  - paragraph [ref=f13e266]: Oh hello! Nice to see you.
+                  - paragraph [ref=f13e267]:
+                    - text: Made with ❤️ by
+                    - link [ref=f13e268] [cursor=pointer]:
+                      - /url: https://actions.github.io/humans.txt
+                      - text: humans.txt
+              - generic [ref=f13e269]:
+                - button "Fit to window" [disabled] [ref=f13e270]:
+                  - img
+                - generic [ref=f13e271]:
+                  - button "Zoom out" [disabled] [ref=f13e273]:
+                    - img
+                  - button "Zoom in" [disabled] [ref=f13e275]:
+                    - img
+          - img [ref=f13e276]
+          - region "Annotations"

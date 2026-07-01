@@ -1,0 +1,85 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e58]: Create a simple button component
+            - img [ref=e61]
+          - generic [ref=e81]:
+            - img [ref=e84]
+            - generic [ref=e89]:
+              - generic [ref=e92]: Creating App.jsx
+              - separator [ref=e93]
+              - generic [ref=e96]: Creating Button.jsx
+              - separator [ref=e97]
+              - paragraph [ref=e99]: Done! Created a reusable Button component with primary, secondary, and danger variants, plus disabled state support.
+          - generic [ref=e491]:
+            - generic [ref=e494]: Create a simple card component
+            - img [ref=e497]
+          - generic [ref=e500]:
+            - img [ref=e503]
+            - generic [ref=e508]:
+              - generic [ref=e511]: Creating Card.jsx
+              - separator [ref=e512]
+              - generic [ref=e515]: Editing App.jsx
+              - separator [ref=e516]
+              - paragraph [ref=e518]: Done! Created a Card component with optional title and subtitle support.
+          - generic [ref=e523]:
+            - generic [ref=e526]: Create a simple alert banner component
+            - img [ref=e529]
+          - generic [ref=e549]:
+            - img [ref=e552]
+            - generic [ref=e557]:
+              - generic [ref=e560]: Creating Alert.jsx
+              - separator [ref=e561]
+              - generic [ref=e564]: Editing App.jsx
+              - separator [ref=e565]
+              - paragraph [ref=e567]: Done! Created an Alert component with info, success, warning, and error types. Each has a close button and custom styling.
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [selected] [ref=e32]
+          - tab "Code" [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - iframe [ref=e490]:
+        - generic [ref=f3e4]:
+          - generic [ref=f3e5]:
+            - generic [ref=f3e6]: 🛈
+            - generic [ref=f3e7]:
+              - heading "Info Alert" [level=3] [ref=f3e8]
+              - paragraph [ref=f3e9]: This is an informational message.
+            - button "✕" [ref=f3e10] [cursor=pointer]
+          - generic [ref=f3e11]:
+            - generic [ref=f3e12]: ✓
+            - generic [ref=f3e13]:
+              - heading "Success!" [level=3] [ref=f3e14]
+              - paragraph [ref=f3e15]: Your action was completed successfully.
+            - button "✕" [ref=f3e16] [cursor=pointer]
+          - generic [ref=f3e17]:
+            - generic [ref=f3e18]: ⚠
+            - generic [ref=f3e19]:
+              - heading "Warning" [level=3] [ref=f3e20]
+              - paragraph [ref=f3e21]: Please be careful with this action.
+            - button "✕" [ref=f3e22] [cursor=pointer]
+          - generic [ref=f3e23]:
+            - generic [ref=f3e24]: ✕
+            - generic [ref=f3e25]:
+              - heading "Error" [level=3] [ref=f3e26]
+              - paragraph [ref=f3e27]: Something went wrong. Please try again.
+            - button "✕" [ref=f3e28] [cursor=pointer]
+          - generic [ref=f3e29]:
+            - heading "Components Demo" [level=2] [ref=f3e30]
+            - paragraph [ref=f3e31]: Showing Button, Card, and Alert components.
+  - alert [ref=e48]
+  - generic [ref=e151]:
+    - alert
+    - alert

@@ -1,0 +1,56 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e58]: Create a simple button component
+            - img [ref=e61]
+          - generic [ref=e81]:
+            - img [ref=e84]
+            - generic [ref=e89]:
+              - generic [ref=e92]: Creating App.jsx
+              - separator [ref=e93]
+              - generic [ref=e96]: Creating Button.jsx
+              - separator [ref=e97]
+              - paragraph [ref=e99]: Done! Created a reusable Button component with primary, secondary, and danger variants, plus disabled state support.
+          - generic [ref=e491]:
+            - generic [ref=e494]: Create a simple card component
+            - img [ref=e497]
+          - generic [ref=e500]:
+            - img [ref=e503]
+            - generic [ref=e508]:
+              - generic [ref=e511]: Creating Card.jsx
+              - separator [ref=e512]
+              - generic [ref=e515]: Editing App.jsx
+              - separator [ref=e516]
+              - paragraph [ref=e518]: Done! Created a Card component with optional title and subtitle support.
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [selected] [ref=e32]
+          - tab "Code" [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - iframe [ref=e490]:
+        - generic [ref=f3e4]:
+          - generic [ref=f3e5]:
+            - heading "Simple Card" [level=2] [ref=f3e6]
+            - paragraph [ref=f3e7]: This is a basic card component
+            - paragraph [ref=f3e8]: Card content goes here.
+          - generic [ref=f3e9]:
+            - heading "Card with Button" [level=2] [ref=f3e10]
+            - paragraph [ref=f3e11]: This card has a button inside.
+            - button "Click Me" [ref=f3e12] [cursor=pointer]
+          - paragraph [ref=f3e14]: A card without a title.
+  - alert [ref=e48]
+  - generic [ref=e151]:
+    - alert
+    - alert

@@ -1,0 +1,37 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e3]:
+    - generic [ref=f4e5]:
+      - heading "React Component Generator" [level=1] [ref=f4e7]
+      - generic [ref=f4e9]:
+        - generic [ref=f4e54]:
+          - generic [ref=f4e55]:
+            - generic [ref=f4e58]: Create a simple card component
+            - img [ref=f4e61]
+          - generic [ref=f4e85]:
+            - img [ref=f4e88]
+            - generic [ref=f4e93]:
+              - generic [ref=f4e96]: Creating App.jsx
+              - separator [ref=f4e97]
+              - generic [ref=f4e100]: Creating Card.jsx
+              - separator [ref=f4e101]
+              - paragraph [ref=f4e103]: Done. Created a card component with a dark gradient background, purple/pink accent colors, smooth hover animations, and a gradient border glow effect.
+        - generic [ref=f4e20]:
+          - textbox "Describe the React component you want to create..." [ref=f4e21]
+          - button [disabled] [ref=f4e22]:
+            - img [ref=f4e23]
+    - separator [ref=f4e26]
+    - generic [ref=f4e28]:
+      - generic [ref=f4e29]:
+        - tablist [ref=f4e31]:
+          - tab "Preview" [selected] [ref=f4e32]
+          - tab "Code" [ref=f4e33]
+        - generic [ref=f4e34]:
+          - button "Sign In" [ref=f4e35]
+          - button "Sign Up" [ref=f4e36]
+      - iframe [ref=f4e84]:
+        - generic [ref=f6e7]:
+          - generic [ref=f6e8]: ✨
+          - heading "Elegant Card" [level=3] [ref=f6e9]
+          - paragraph [ref=f6e10]: A beautifully crafted card component with modern styling and smooth interactions.
+          - button "Learn More" [ref=f6e11] [cursor=pointer]
+  - alert [ref=f4e48]

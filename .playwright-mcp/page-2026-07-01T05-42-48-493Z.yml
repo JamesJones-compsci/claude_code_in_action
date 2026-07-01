@@ -1,0 +1,54 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e58]: Create a simple button component
+            - img [ref=e61]
+          - generic [ref=e81]:
+            - img [ref=e84]
+            - generic [ref=e89]:
+              - generic [ref=e92]: Creating App.jsx
+              - separator [ref=e93]
+              - generic [ref=e96]: Creating Button.jsx
+              - separator [ref=e97]
+              - paragraph [ref=e99]: Done! Created a reusable Button component with primary, secondary, and danger variants, plus disabled state support.
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [ref=e32]
+          - tab "Code" [active] [selected] [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - generic [ref=e100]:
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - generic [ref=e108] [cursor=pointer]:
+              - img [ref=e109]
+              - img [ref=e111]
+              - generic [ref=e113]: components
+            - generic [ref=e116] [cursor=pointer]:
+              - img [ref=e117]
+              - generic [ref=e122]: Button.jsx
+          - generic [ref=e124] [cursor=pointer]:
+            - img [ref=e125]
+            - generic [ref=e130]: App.jsx
+        - separator [ref=e131]
+        - code [ref=e136]:
+          - generic [ref=e137]:
+            - textbox "Editor content"
+            - textbox [ref=e138]
+            - generic [ref=e143]: "1"
+            - generic [ref=e149]: i
+  - alert [ref=e48]
+  - generic [ref=e151]:
+    - alert
+    - alert

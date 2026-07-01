@@ -1,0 +1,280 @@
+- generic [ref=f11e2]:
+  - generic [ref=f11e3]:
+    - link "Skip to content" [ref=f11e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global navigation menu" [ref=f11e8]:
+      - generic [ref=f11e9]:
+        - generic [ref=f11e10]:
+          - button "Open menu" [ref=f11e12] [cursor=pointer]:
+            - img [ref=f11e13]
+          - link "Homepage (g then d)" [ref=f11e15] [cursor=pointer]:
+            - /url: /
+            - img [ref=f11e16]
+        - generic [ref=f11e18]:
+          - navigation "Breadcrumbs" [ref=f11e19]:
+            - list [ref=f11e20]:
+              - listitem [ref=f11e21]:
+                - link "JamesJones-compsci" [ref=f11e22] [cursor=pointer]:
+                  - /url: /JamesJones-compsci
+                  - generic [ref=f11e23]: JamesJones-compsci
+              - listitem [ref=f11e24]:
+                - link "claude_code_in_action" [ref=f11e25] [cursor=pointer]:
+                  - /url: /JamesJones-compsci/claude_code_in_action
+                - button "Switch repository (alt shift r)" [ref=f11e26] [cursor=pointer]:
+                  - img [ref=f11e27]
+          - button "Search or jump to…" [ref=f11e31] [cursor=pointer]:
+            - generic [ref=f11e32]:
+              - generic:
+                - img
+              - generic [ref=f11e33]:
+                - generic:
+                  - text: Type
+                  - generic: /
+                  - text: to search
+        - generic [ref=f11e34]:
+          - generic [ref=f11e35]:
+            - generic [ref=f11e38]:
+              - link "Chat with Copilot" [ref=f11e40] [cursor=pointer]:
+                - /url: /copilot
+                - img [ref=f11e41]
+              - button "Open Copilot…" [ref=f11e45] [cursor=pointer]:
+                - generic:
+                  - img
+            - button "Create new..." [ref=f11e47] [cursor=pointer]:
+              - generic [ref=f11e48]:
+                - generic:
+                  - img
+              - generic:
+                - img
+            - generic [ref=f11e49]:
+              - link "All issues" [ref=f11e50] [cursor=pointer]:
+                - /url: /issues
+                - img [ref=f11e51]
+              - link "All pull requests" [ref=f11e54] [cursor=pointer]:
+                - /url: /pulls
+                - img [ref=f11e55]
+              - link "All repositories" [ref=f11e57] [cursor=pointer]:
+                - /url: /repos
+                - img [ref=f11e58]
+          - link "You have unread notifications (g then n)" [ref=f11e60] [cursor=pointer]:
+            - /url: /notifications
+            - img [ref=f11e61]
+          - button "Open user navigation menu" [ref=f11e64] [cursor=pointer]:
+            - img "User avatar" [ref=f11e65]
+      - heading "Repository navigation" [level=2] [ref=f11e66]
+      - navigation "Repository" [ref=f11e67]:
+        - list [ref=f11e68]:
+          - listitem [ref=f11e69]:
+            - link "Code" [ref=f11e70] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action
+              - img [ref=f11e72]
+              - generic [ref=f11e74]: Code
+          - listitem [ref=f11e75]:
+            - link "Issues" [ref=f11e76] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/issues
+              - img [ref=f11e78]
+              - generic [ref=f11e81]: Issues
+          - listitem [ref=f11e82]:
+            - link "Pull requests" [ref=f11e83] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/pulls
+              - img [ref=f11e85]
+              - generic [ref=f11e87]: Pull requests
+          - listitem [ref=f11e88]:
+            - link "Agents" [ref=f11e89] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/agents?author=JamesJones-compsci
+              - img [ref=f11e91]
+              - generic [ref=f11e94]: Agents
+          - listitem [ref=f11e95]:
+            - link "Actions" [ref=f11e96] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/actions
+              - img [ref=f11e98]
+              - generic [ref=f11e100]: Actions
+          - listitem [ref=f11e101]:
+            - link "Projects" [ref=f11e102] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/projects
+              - img [ref=f11e104]
+              - generic [ref=f11e106]: Projects
+          - listitem [ref=f11e107]:
+            - link "Wiki" [ref=f11e108] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/wiki
+              - img [ref=f11e110]
+              - generic [ref=f11e112]: Wiki
+          - listitem [ref=f11e113]:
+            - link "Security and quality" [ref=f11e114] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/security
+              - img [ref=f11e116]
+              - generic [ref=f11e118]: Security and quality
+          - listitem [ref=f11e119]:
+            - link "Insights" [ref=f11e120] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/pulse
+              - img [ref=f11e122]
+              - generic [ref=f11e124]: Insights
+          - listitem [ref=f11e125]:
+            - link "Settings" [ref=f11e126] [cursor=pointer]:
+              - /url: /JamesJones-compsci/claude_code_in_action/settings
+              - img [ref=f11e128]
+              - generic [ref=f11e130]: Settings
+  - main [ref=f11e133]:
+    - generic [ref=f11e137]:
+      - link "View JamesJones-compsci's profile" [ref=f11e138] [cursor=pointer]:
+        - /url: /JamesJones-compsci
+        - generic [ref=f11e139]: View JamesJones-compsci's profile
+      - generic [ref=f11e140]:
+        - heading "Create new issue" [level=1] [ref=f11e142]
+        - generic [ref=f11e145]:
+          - generic [ref=f11e146]:
+            - generic [ref=f11e148]:
+              - generic [ref=f11e150] [cursor=pointer]:
+                - generic [ref=f11e151]: Add a title
+                - generic [ref=f11e152]: "*"
+              - textbox "Add a title" [active] [ref=f11e156]:
+                - /placeholder: Title
+            - group "Add a description" [ref=f11e162]:
+              - generic [ref=f11e163] [cursor=pointer]: Add a description
+              - generic [ref=f11e164]:
+                - generic [ref=f11e165]: "Markdown input: edit mode selected."
+                - generic [ref=f11e166]:
+                  - generic [ref=f11e167]:
+                    - navigation "View mode" [ref=f11e171]:
+                      - tablist [ref=f11e172]:
+                        - tab "Write" [selected] [ref=f11e173] [cursor=pointer]
+                        - tab "Preview" [ref=f11e174] [cursor=pointer]
+                    - generic [ref=f11e175]:
+                      - toolbar "Formatting tools" [ref=f11e177]:
+                        - generic [ref=f11e178]:
+                          - button "Heading" [ref=f11e179] [cursor=pointer]:
+                            - img [ref=f11e180]
+                          - button "Bold" [ref=f11e182] [cursor=pointer]:
+                            - img [ref=f11e183]
+                          - button "Italic" [ref=f11e185] [cursor=pointer]:
+                            - img [ref=f11e186]
+                          - button "Quote" [ref=f11e188] [cursor=pointer]:
+                            - img [ref=f11e189]
+                          - button "Code" [ref=f11e191] [cursor=pointer]:
+                            - img [ref=f11e192]
+                          - button "Link" [ref=f11e194] [cursor=pointer]:
+                            - img [ref=f11e195]
+                          - generic [ref=f11e197]:
+                            - button "Unordered list" [ref=f11e199] [cursor=pointer]:
+                              - img [ref=f11e200]
+                            - button "Numbered list" [ref=f11e202] [cursor=pointer]:
+                              - img [ref=f11e203]
+                            - button "Task list" [ref=f11e205] [cursor=pointer]:
+                              - img [ref=f11e206]
+                          - generic [ref=f11e208]:
+                            - button "Mention" [ref=f11e210] [cursor=pointer]:
+                              - img [ref=f11e211]
+                            - button "Reference" [ref=f11e213] [cursor=pointer]:
+                              - img [ref=f11e214]
+                          - button "Slash commands" [ref=f11e216] [cursor=pointer]:
+                            - img [ref=f11e217]
+                      - button "Saved replies" [ref=f11e219] [cursor=pointer]:
+                        - img [ref=f11e220]
+                  - textbox "Markdown value" [ref=f11e225]:
+                    - /placeholder: Type your description here…
+                  - status
+                - generic [ref=f11e227]:
+                  - button "Paste, drop, or click to add files" [ref=f11e229] [cursor=pointer]:
+                    - generic [ref=f11e230]:
+                      - generic:
+                        - img
+                      - generic [ref=f11e232]: Paste, drop, or click to add files
+                  - button "Write with Copilot" [ref=f11e234] [cursor=pointer]:
+                    - generic [ref=f11e235]:
+                      - generic:
+                        - img
+                      - generic [ref=f11e236]: Write with Copilot
+          - generic [ref=f11e238]:
+            - heading "Metadata" [level=2] [ref=f11e239]
+            - generic [ref=f11e241]:
+              - generic [ref=f11e242]:
+                - heading "Assignees" [level=3]
+                - button "Edit Assignees" [ref=f11e243] [cursor=pointer]:
+                  - generic [ref=f11e244]: Edit Assignees
+                  - generic:
+                    - img
+              - generic [ref=f11e245]:
+                - text: No one -
+                - button "Assign yourself" [ref=f11e246] [cursor=pointer]:
+                  - generic [ref=f11e248]: Assign yourself
+            - generic [ref=f11e250]:
+              - generic [ref=f11e251]:
+                - heading "Labels" [level=3]
+                - button "Edit Labels" [ref=f11e252] [cursor=pointer]:
+                  - generic [ref=f11e253]: Edit Labels
+                  - generic:
+                    - img
+              - generic [ref=f11e254]: No labels
+            - generic [ref=f11e256]:
+              - generic [ref=f11e257]:
+                - heading "Projects" [level=3]
+                - button "Edit Projects" [ref=f11e258] [cursor=pointer]:
+                  - generic [ref=f11e259]: Edit Projects
+                  - generic:
+                    - img
+              - generic [ref=f11e260]: No projects
+            - generic [ref=f11e262]:
+              - generic [ref=f11e263]:
+                - heading "Milestone" [level=3]
+                - button "Edit Milestone" [ref=f11e264] [cursor=pointer]:
+                  - generic [ref=f11e265]: Edit Milestone
+                  - generic:
+                    - img
+              - generic [ref=f11e266]: No milestone
+          - generic [ref=f11e269]:
+            - generic [ref=f11e270]:
+              - generic [ref=f11e271]:
+                - checkbox "Create more" [ref=f11e273] [cursor=pointer]
+                - generic [ref=f11e275] [cursor=pointer]: Create more
+              - status [ref=f11e276]
+            - generic [ref=f11e277]:
+              - button "Cancel" [ref=f11e278] [cursor=pointer]:
+                - generic [ref=f11e280]: Cancel
+              - button "Create ( control enter )" [ref=f11e281] [cursor=pointer]:
+                - generic [ref=f11e282]:
+                  - generic [ref=f11e283]: Create
+                  - generic:
+                    - generic: (
+                    - generic:
+                      - generic:
+                        - generic: control
+                        - generic: ⌃
+                        - generic: enter
+                        - generic: ⏎
+                    - generic: )
+  - contentinfo [ref=f11e284]:
+    - heading "Footer" [level=2] [ref=f11e285]
+    - generic [ref=f11e286]:
+      - generic [ref=f11e287]:
+        - link "GitHub Homepage" [ref=f11e288] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=f11e289]
+        - generic [ref=f11e291]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=f11e292]:
+        - heading "Footer navigation" [level=3] [ref=f11e293]
+        - list "Footer navigation" [ref=f11e294]:
+          - listitem [ref=f11e295]:
+            - link "Terms" [ref=f11e296] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=f11e297]:
+            - link "Privacy" [ref=f11e298] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=f11e299]:
+            - link "Security" [ref=f11e300] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=f11e301]:
+            - link "Status" [ref=f11e302] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=f11e303]:
+            - link "Community" [ref=f11e304] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=f11e305]:
+            - link "Docs" [ref=f11e306] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=f11e307]:
+            - link "Contact" [ref=f11e308] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=f11e309]:
+            - button "Manage cookies" [ref=f11e311] [cursor=pointer]
+          - listitem [ref=f11e312]:
+            - button "Do not share my personal information" [ref=f11e314] [cursor=pointer]
